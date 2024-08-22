@@ -35,6 +35,11 @@ function Home() {
           size: 150,
         },
         {
+          accessorKey: 'projectmanager', //access nested data with dot notation
+          header: 'Project Manager',
+          size: 150,
+        },
+        {
           accessorKey: 'status',
           header: 'Status',
           size: 150,
